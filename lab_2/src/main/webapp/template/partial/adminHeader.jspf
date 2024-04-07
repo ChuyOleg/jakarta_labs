@@ -1,0 +1,20 @@
+<div class="container-fluid mb-3">
+    <div class="header-wrapper">
+        <div class="header row justify-content-center">
+            <div class="header-block text-center col-2">
+                <a href="/lab_2_war_exploded/catalog">Catalog</a>
+            </div>
+            <div class="header-block text-center col-2">
+                <a href="/lab_2_war_exploded/admin/products">Create product</a>
+            </div>
+            <div class="header-block text-center col-2">
+                <a href="/lab_2_war_exploded/admin/categories">Create Category</a>
+            </div>
+        </div>
+
+
+        <div class="login-logout-block logout-block text-center">
+            <a href="logout" class="align-middle">Logout</a>
+        </div>
+    </div>
+</div>
