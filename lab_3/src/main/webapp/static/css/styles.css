@@ -1,0 +1,124 @@
+body {
+    height:100vh;
+    min-height: 100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.error-message {
+    font-weight: bold;
+    color: red;
+}
+
+/******************************************/
+/************* LOGIN PAGE *****************/
+/******************************************/
+
+.login-form {
+    border: 2px solid black;
+    box-shadow: 0 0 5px 1px black;
+}
+
+/******************************************/
+/********* PRODUCT CREATION PAGE **********/
+/******************************************/
+
+.product-creation-block {
+    border: 2px solid black;
+    box-shadow: 0 0 2px 1px black;
+    background: #ebe9e9;
+}
+
+/******************************************/
+/************** HEADER ********************/
+/******************************************/
+
+.header {
+    background: #ebe9e9;
+    height: 50px;
+}
+
+.header-block a {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 46px;
+    border: 2px solid black;
+    font-weight: bold;
+    color: black;
+    background: #ebd9df;
+}
+
+.header-block a:hover {
+    color: black;
+    background: skyblue;
+}
+
+.login-logout-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: skyblue;
+}
+
+.login-logout-block a {
+    display: inline-block;
+    font-weight: bold;
+    height: 50px;
+    line-height: 46px;
+    width: 100px;
+    border: 2px solid black;
+    color: black;
+    vertical-align: middle;
+}
+
+.login-logout-block a:hover {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    color: black;
+}
+
+.login-block a {
+    background: #c3ffac;
+}
+
+.login-block a:hover {
+    background: limegreen;
+}
+
+.logout-block a {
+    background: #ffafa3;
+}
+
+.logout-block a:hover {
+    background: red;
+}
+
+/******************************************/
+/************** FOOTER ********************/
+/******************************************/
+
+footer.page-footer {
+    background: #221921;
+    height: 6.8vh;
+    padding-top: 1.6vh;
+    padding-bottom: 1.6vh;
+    margin-top: auto;
+}
+
+footer.page-footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: navajowhite;
+}
+
+footer.footer-copyright {
+    color: #198754;
+}

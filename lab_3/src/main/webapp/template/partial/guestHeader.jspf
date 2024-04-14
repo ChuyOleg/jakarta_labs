@@ -1,0 +1,13 @@
+<div class="container-fluid mb-3">
+    <div class="header-wrapper">
+        <div class="header row justify-content-center">
+            <div class="header-block text-center col-2">
+                <a href="/lab_3-1.0-SNAPSHOT/catalog">Catalog</a>
+            </div>
+        </div>
+
+        <div class="login-logout-block login-block text-center">
+            <a href="login" class="align-middle">Login</a>
+        </div>
+    </div>
+</div>
